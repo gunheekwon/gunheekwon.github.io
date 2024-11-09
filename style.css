@@ -8,7 +8,15 @@ header{
 }
 
 main{
+    height: auto;
+    min-height: 100%;
+    width: 80%;
+
+    border: 3px dashed black;
+    border-radius: 5px;
+
     color: blue;
+    
 }
 
 footer{
