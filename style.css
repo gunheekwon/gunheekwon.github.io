@@ -1,40 +1,24 @@
 body{
     background-color:blanchedalmond;
+}
+
+.container{
+    display: flex;
+
+    justify-content: center;
     align-items: center;
 }
 
-header{
-    height: 30px;
-    width: 100%;
-    background-color: gray;
+.target{
+    height: 100px;
+    width: 100px;
 
-    padding: 0;
-    margin: 0;
+    border-radius: 10px;
+    border: 5px dashed gray;
 
-    font-size: 15px;
+    background-color: #946cee;
 }
 
-main{
-    height: auto;
-    min-height: 100%;
-
-    border: 3px dashed black;
-    border-radius: 5px;
-
-    color: blue;
-    
-}
-
-section{
-    width: 80%;
-    border: 2px solid white;
-    border-radius: 4px;
-}
-
-footer{
-    height: 30px;
-    width: 80%;
-    background-color: white;
-    
-    color: orange;
+.target:hover{
+    background-color: #8b00ff;
 }
