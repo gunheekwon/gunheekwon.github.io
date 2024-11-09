@@ -1,0 +1,16 @@
+body{
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+header{
+    background-color: gray;
+}
+
+main{
+    color: blue;
+}
+
+footer{
+    color: green;
+}
