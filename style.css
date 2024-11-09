@@ -15,7 +15,7 @@ body{
 
 .target{
     width: 20%;
-    min-width: 100px;
+    min-width: 200px;
     background-color: #946cee;
 
     border-radius: 10px;
