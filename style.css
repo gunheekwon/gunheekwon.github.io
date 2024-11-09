@@ -1,16 +1,22 @@
 body{
     background-color:blanchedalmond;
-    text-align: center;
+    align-items: center;
 }
 
 header{
+    height: 30px;
+    width: 100%;
     background-color: gray;
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 15px;
 }
 
 main{
     height: auto;
     min-height: 100%;
-    width: 80%;
 
     border: 3px dashed black;
     border-radius: 5px;
@@ -19,6 +25,16 @@ main{
     
 }
 
+section{
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
 footer{
-    color: green;
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    
+    color: orange;
 }
