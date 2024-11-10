@@ -40,12 +40,11 @@ body{
 	transform: scale(1.1);
 }
 
-.target:visited{
+.target:active{
     transform: rotate(15DEG);
-    transition: .1s ease-in-out;
-    transform: rotate(-15DEG);
-    transition: .1s ease-in-out;
+    transition: .05s ease-in-out;
 }
+
 
 p{
     color: white;
