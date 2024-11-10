@@ -24,7 +24,7 @@ body{
     text-align: center;
 
 	transform: scale(1);
-	transition: .1s cubic-bezier(0.4, 0, 1, 1);
+	/* transition: .1s cubic-bezier(0.4, 0, 1, 1); */
 }
 
 
@@ -42,7 +42,7 @@ body{
 
 .target:active{
     background-color: #8b00ff;
-    animation: boom 0.2s infinite;
+    animation: boom 0.275s infinite;
 }
 
 @keyframes boom{
