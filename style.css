@@ -23,17 +23,28 @@ body{
 
     text-align: center;
 
-    -webkit-transform: scale(1);
+}
+
+
+.target{
+    /* -webkit-transform: scale(1); */
+	/* -webkit-transition: .5s ease-in-out; */
 	transform: scale(1);
-	-webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 }
 
 .target:hover{
     background-color: #8b00ff;
 
-    -webkit-transform: scale(1.1);
+    /* -webkit-transform: scale(1.1); */
 	transform: scale(1.1);
+}
+
+.target:visited{
+    transform: rotate(15DEG);
+    transition: .1s ease-in-out;
+    transform: rotate(-15DEG);
+    transition: .1s ease-in-out;
 }
 
 p{
