@@ -1,59 +1,52 @@
-body{
+/* reset CSS */
+
+html, body, div{ margin: 0; padding: 0; border: 0;}
+
+html{
     height: 100%;
-    width: 100%;
-    background-color:blanchedalmond;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Noto Serif KR', serif;
 }
 
 .container{
-    height: 100%;
-    width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) auto;
+    grid-template-rows: 200px 1fr 150px;
+    gap: 10px;
 
-    justify-content: center;
-    align-items: center;
+    background-color:blanchedalmond;
 }
 
-.target{
-    width: 20%;
-    min-width: 200px;
-    background-color: #946cee;
+.item{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
 
-    border-radius: 10px;
-    border: 5px dashed gray;
-
+    background-color: yellow;
+    
     text-align: center;
-
-	transform: scale(1);
-	/* transition: .1s cubic-bezier(0.4, 0, 1, 1); */
+    color: black;
 }
 
-
-.target:hover{
-    animation: shake .2s infinite;
+.header{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
 }
 
-@keyframes shake{
-    0% { transform: translate(0, 0) rotate(0deg); }
-    25% { transform: translate(0, 0) rotate(5deg); }
-    50% { transform: translate(0, 0) rotate(0deg); }
-    75% { transform: translate(0, 0) rotate(-5deg); }
-    100% { transform: translate(0, 0) rotate(0deg); }
+.side-bar{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
 }
 
-.target:active{
-    background-color: #8b00ff;
-    animation: boom 0.275s infinite;
+.main{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
 }
 
-@keyframes boom{
-    0% { transform: scale(1); }
-    25% { transform: scale(0.95); }
-    50% { transform: scale(1.2); }
-    75% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-}
-
-p{
-    color: white;
-    font-size: 30px;
+.footer{
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
 }
