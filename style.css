@@ -49,23 +49,7 @@ p {
 
 .header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: stretch;
-}
-
-.logo{
-    /* padding: auto; */
-    margin: 5px;
-    padding: 17px;
-    background-color: gray;
-    
-}
-#aaa {
-    height: 66px;
-    width: 66px;
-
-    margin: ;
-    padding: 0;
-    font-size: 32px;
 }
