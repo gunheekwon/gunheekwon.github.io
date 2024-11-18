@@ -47,24 +47,29 @@ p {
     text-align:center;
 }
 
+
 .header{
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: flex-start;
     justify-content: stretch;
 
     font-size: 32px;
 }
+.main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 1.2em sans-serif;
 
-.main-nav{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font: 1.2em sans-serif;
-    
-    display: flex;
+  display: flex;
 }
 
-.push{
-    margin-left: auto;
+.main-nav a {
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.push {
+  margin-left: auto;
 }
