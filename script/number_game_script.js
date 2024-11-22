@@ -39,7 +39,7 @@ function checkGuess() {
     
     guessCount++;
     guessField.value = "";
-    guessFiled.focus();
+    guessField.focus();
 }
 
 function setGameOver(){
@@ -49,7 +49,7 @@ function setGameOver(){
     
     // 리셋버튼 생성
         // button 요소 생성
-    resetButton.document.createElement("button"); 
+    resetButton = document.createElement("button"); 
         // text label 생성
     resetButton.textContent = "Start new game"; 
         // body 뒷 부분에 붙임
