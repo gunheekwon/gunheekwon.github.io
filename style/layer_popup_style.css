@@ -27,11 +27,6 @@
     transition: 0.4s;
 }
 
-.button:hover{
-    background: #dc5133;
-    color: #fff;
-}
-
 .popup{
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
@@ -85,4 +80,9 @@ input{
     font-weight: bolder;
     text-decoration: none;
     color: #000;
+}
+
+.button:hover{
+    background: #dc5133;
+    color: #fff;
 }
