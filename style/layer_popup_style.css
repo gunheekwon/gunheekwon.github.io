@@ -65,6 +65,11 @@ input{
 }
 
 .popup-content .button{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     background: #fff;
     color: #000;
 }
