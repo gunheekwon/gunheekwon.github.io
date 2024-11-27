@@ -9,21 +9,55 @@ header{
     height: 60px;
     padding: 10px;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    font-size: 40px;
 }
 
-header .Logo{
+nav{
+    position: relative;
+}
+
+.left{
     position: absolute;
-    top: 0;
     left: 0;
 }
 
-header .Account{
+.right{
     position: absolute;
-    top: 0;
     right: 0;
-    transform: translate(0, -100%);
+}
+
+nav input{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 1em;
+    width: 250px;
+}
+
+.nav-link{
+    color: gray;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+aside{
+    width: 150px;
+    height: 100%;
+}
+
+article{
+    
+}
+
+section{
+    display: flex;
+}
+
+.card img{
+    width: 200px;
+    height: 120px;
 }
