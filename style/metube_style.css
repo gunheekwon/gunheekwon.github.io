@@ -16,25 +16,46 @@ nav{
 }
 
 .left{
+    display: flex;
     position: absolute;
     left: 0;
+    align-items: center;
 }
 
 .right{
+    display: flex;
     position: absolute;
     right: 0;
+    align-items: center;
+    
 }
 
 nav input{
     border: 1px solid gray;
-    border-radius: 10px;
     padding: 5px;
     padding-left: 1em;
+}
+input#search_word{
     width: 250px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-right: 0;
+}
+
+input#search_button{
+    width: 48px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: white;
 }
 
 .nav-link{
     color: gray;
+}
+
+nav img{
+    height: 32px;
+    display: block;
 }
 
 main{
@@ -47,6 +68,19 @@ main{
 aside{
     width: 150px;
     height: 100%;
+}
+
+a.list-group-item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.list-group-item img{
+    height: 1.5em;
+    display: block;
+    border-radius: 50%;
 }
 
 article{
