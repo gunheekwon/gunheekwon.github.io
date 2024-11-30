@@ -11,7 +11,7 @@ body{
     font-size: 32px;
 }
 
-.main-nav{
+.mainNav{
     display: flex;
     flex-direction: row;
     align-items: center;
